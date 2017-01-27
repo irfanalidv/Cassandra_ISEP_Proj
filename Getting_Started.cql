@@ -10,3 +10,8 @@
  
  
  
+##Helpfull commands
+
+DESCRIBE keyspaces;
+
+DROP KEYSPACE name_keyspace;
