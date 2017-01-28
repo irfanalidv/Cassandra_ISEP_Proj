@@ -13,6 +13,8 @@ Processed: 11310 rows; Rate:    2221 rows/s; Avg. rate:    2615 rows/s
 ###Loading Genre Data
 
 CREATE TABLE genre (name text  PRIMARY KEY,id int);
+
+COPY genre FROM 'D:\Paris\Project\Project Big Data 2016-2017\datasets\datasets\genres.csv' WITH HEADER = true;
  
  
 ###Loading Movie
