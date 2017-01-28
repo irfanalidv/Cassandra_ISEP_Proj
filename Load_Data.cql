@@ -12,9 +12,11 @@ Processed: 11310 rows; Rate:    2221 rows/s; Avg. rate:    2615 rows/s
 
 ###Loading Genre Data
 
- CREATE TABLE genre (name text  PRIMARY KEY,id int);
+CREATE TABLE genre (name text  PRIMARY KEY,id int);
  
  
+CREATE TABLE movie (id int,title varchar, date timestamp, PRIMARY KEY (id,title));
+
 
 
 
