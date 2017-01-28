@@ -15,3 +15,8 @@
 DESCRIBE keyspaces;
 
 DROP KEYSPACE name_keyspace;
+
+####
+
+select * from rating limit 10;
+
