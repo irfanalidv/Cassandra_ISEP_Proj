@@ -15,8 +15,11 @@ Processed: 11310 rows; Rate:    2221 rows/s; Avg. rate:    2615 rows/s
 CREATE TABLE genre (name text  PRIMARY KEY,id int);
  
  
+###Loading Movie
+
 CREATE TABLE movie (id int,title varchar, date timestamp, PRIMARY KEY (id,title));
 
+COPY movie FROM 'D:\Paris\Project\Project Big Data 2016-2017\datasets\datasets\movies.csv' WITH HEADER = true;
 
 
 
